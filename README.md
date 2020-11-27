@@ -1,11 +1,3 @@
----
-title: React專案 Amazon-Clone
-date: 2020-11-19 17:07:27
-tags: React專案
-categories: React
-cover: https://cdn.jsdelivr.net/gh/ptrln216/HexoStaticFile@7758c6f7e6b844dfdebb4381fa6d03344cf505b7/2020/11/24/d6aeb674bae18964280bc0ecca35803f.png
----
-
 # 基於 React 的全端 Amazon Clone 網站
 
 項目預覽地址：[https://agile-escarpment-11383.herokuapp.com/](https://agile-escarpment-11383.herokuapp.com/)
