@@ -1,0 +1,60 @@
+.carousel {
+    box-sizing: border-box;
+    min-width: 600px;
+    width: 100%;
+    height: 600px;
+    margin-bottom: -360px;
+    position: relative;
+    overflow-x: hidden;
+    display: flex;
+}
+
+.carousel__item {
+    box-sizing: border-box;
+    transition-duration: 0.5s;
+    height: 100%;
+    min-width: 100%;
+}
+
+.carousel__item > img {
+    width: 100%;
+    z-index: -1;
+    object-fit: contain;
+    margin-bottom: -200px;
+    mask-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 1) 50%,
+        rgba(0, 0, 0, 0)
+    );
+}
+
+#goLeft {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 7%;
+    height: 40%;
+    background-color: transparent;
+}
+
+#goRight {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 7%;
+    height: 40%;
+    background-color: transparent;
+}
+
+.carousel__navButton {
+    transform: scale(1.5, 1.8);
+    box-shadow: 0 0 0 0 bisque;
+}

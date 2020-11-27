@@ -1,0 +1,34 @@
+.footerColumn {
+    width: 200px;
+    padding: 0 10px;
+    margin: 20px;
+    line-height: 120%;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.footerColumn__title {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 6px 0 14px 0;
+}
+
+.footerColumn > ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footerColumn > ul > li {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.footerColumn > ul > li > a {
+    font-size: 14px;
+    color: #ddd;
+    text-decoration: none;
+}
+.footerColumn > ul > li > a:hover {
+    text-decoration: underline;
+}
